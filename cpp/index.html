@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Belajar C++ - TKJ 1 SMK RADEN PAKU</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Belajar C++";
+        var mkdocs_page_input_path = "cpp.md";
+        var mkdocs_page_url = null;
+      </script>
+
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> TKJ 1 SMK RADEN PAKU
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../tik/">TIK</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../kjd.md">KJD</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../progdas.md">PROGDAS</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../siskom/">SISKOM</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../desain.md">DESAIN</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../me.md">Tentang-Kami</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../lisensi.md">Lisensi</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">TKJ 1 SMK RADEN PAKU</a>
+
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Belajar C++</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+
+                <h1 id="belajar-c">Belajar C++</h1>
+<hr />
+<p><a href="https://andhikaprttp.github.io"> &lt;&lt; Kembali ke beranda </a></p>
+<p>Belajar Bahasa Pemrograman Dasar C++
+Mata pelajaran Pemrograman Dasar  kelas X</p>
+<blockquote>
+<p>Sumber materi ini adalah <a href="readme.md">Kelas Terbuka 🌱</a> dan beberapa website di indonesia <a href="petanikode.md">Petanikode</a> serta <a href="https://en.m.wikipedia.org/wiki/C%2B%2B">Wikipedia</a></p>
+</blockquote>
+<h2 id="apa-itu-c">Apa itu C++</h2>
+<p>C++ adalah bahasa pemrograman komputer yang dibuat oleh <a href="bs.md">Bjarne Stroustrup</a>,
+yang merupakan perkembangan dari bahasa C yang dikembangkan di Bell Labs oleh <a href="dr.md">Dennis Ritchie</a>.
+Pada awal tahun 1970-an</p>
+<h2 id="alat-yang-dibutuhkan">Alat yang dibutuhkan</h2>
+<ul>
+<li><a href="text.md">Text Editor / IDE</a></li>
+<li><a href="kompiler.md">Kompiler</a></li>
+</ul>
+<p>Rekomendasi menggunakan tools :</p>
+<h3 id="untuk-laptop">Untuk Laptop</h3>
+<h2 id="dev-c"><a href="https://www.bloodshed.net/">Dev C++</a></h2>
+<p>Dev-C++ adalah sebuah IDE (Integrated Development Environment) <code>C / C++</code> yang sudah dilengkapi dengan <code>Compiler</code> (bagian dari GNU Compiler Collection / GCC).
+Dev-C++ merupakan IDE gratis dan full fitur untuk pemrograman <code>C</code> dan <code>C++</code></p>
+<h3 id="untuk-android-bisa-menggunakan-beberapa-aplikasi">Untuk Android bisa menggunakan beberapa aplikasi</h3>
+<ul>
+<li><a href="termux.md">TERMUX</a><blockquote>
+<p>untuk Termux perlu beberapa settingan untuk instalasi kompiler dan text editor</p>
+</blockquote>
+</li>
+<li><a href="cxx.md">CXX</a> ( bisa digunakan langsung )</li>
+</ul>
+<h3 id="kompiler-online">Kompiler Online</h3>
+<p>Kalian juga dapat menggunakan compiler online , bagi yang ingin belajar C++ tanpa menginstall aplikasi / software, <b>Perlu Koneksi Internet</b></p>
+<ul>
+<li><a href="https://www.onlinegdb.com/online_c++_compiler">Online-GDB</a></li>
+<li><a href="https://www.programiz.com/cpp-programming/online-compiler/">Programiz | C++ Compiler</a></li>
+</ul>
+<hr />
+<h4 id="proyek-program-sederhana-dengan-c"><a href="proyek.md">Proyek Program Sederhana dengan C++</a></h4>
+<blockquote>
+<p>@xcyberone | TKJ 1 | SMK RADEN PAKU</p>
+</blockquote>
+<h2 id="program-dasar-c">Program Dasar C++</h2>
+<p>contoh program mencetak output berupa teks di layar menggunakan bahasa pemrograman C++</p>
+<pre><code class="language-c++">
+// Program mencetak teks ke layar
+// X TKJ 1
+#include &lt;iostream&gt;
+using namespace std;
+int main(){
+       cout &lt;&lt; &quot;SMK RADEN PAKU&quot;;
+       return 0;
+       }
+
+</code></pre>
+<p>Penjelasan mengenai program diatas :</p>
+<table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Fungsi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>#include &lt;iostream&gt;</code></td>
+<td>Memanggil file iostream di komputer dan menjadi komponen library standar di C++</td>
+</tr>
+<tr>
+<td><code>using namespace std;</code></td>
+<td>Berfungsi mempersingkat syntax std</td>
+</tr>
+<tr>
+<td><code>int main(){ }</code></td>
+<td>Berfungsi sebagai bada program yang kita buat</td>
+</tr>
+<tr>
+<td><code>cout &lt;&lt; " ";</code></td>
+<td>Berfungsi sebagai output</td>
+</tr>
+<tr>
+<td><code>cin &gt;&gt; ;</code></td>
+<td>Berfungsi sebagai proses penerima data / input</td>
+</tr>
+<tr>
+<td><code>return 0;</code></td>
+<td>Berfungsi sebagai akhir program</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="cetak-ke-layar">CETAK KE LAYAR</h2>
+<p>Untuk mencetak objek di c++
+, kita dapat menggunakan sintaks  <code>cout</code> , bersama dengan operator <code>&lt;&lt;</code> , digunakan untuk menampilkan nilai/mencetak teks:</p>
+<pre><code class="language-c++">
+
+#include &lt;iostream&gt;
+using namespace std;
+int main(){
+        cout &lt;&lt; &quot;halo sodara-sodara sekalian&quot;;
+        cout &lt;&lt; &quot;ini adalah baris baru.&quot;;
+        cout &lt;&lt; &quot;ini bukan baris baru.&quot;;
+        cout &lt;&lt; &quot; ini akhir kalimat.&quot; &lt;&lt; endl;
+        cin.get();
+        return 0;
+}
+
+</code></pre>
+<h2 id="variabel">Variabel</h2>
+<p>Variabel adalah wadah untuk menyimpan nilai data.
+Di C++, ada berbagai jenis variabel (didefinisikan dengan kata kunci yang berbeda), dan didalam variabel terdapat
+tipe data , bahasa C++ mempunyai 7 tipe data yaitu :</p>
+<table>
+<thead>
+<tr>
+<th>tipe data</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>int</td>
+<td>menyimpan bilangan bulat (bilangan bulat), tanpa desimal, seperti 123 atau -123</td>
+</tr>
+<tr>
+<td>double</td>
+<td>menyimpan angka floating point, dengan desimal, seperti 19,99 atau -19,99</td>
+</tr>
+<tr>
+<td>char</td>
+<td>menyimpan karakter tunggal, seperti 'a' atau 'B'. Nilai karakter dikelilingi oleh tanda kutip tunggal</td>
+</tr>
+<tr>
+<td>string</td>
+<td>menyimpan teks, seperti "Hello World". Nilai string dikelilingi oleh tanda kutip ganda</td>
+</tr>
+<tr>
+<td>boolean</td>
+<td>menyimpan nilai dengan dua status: benar atau salah ( true / false , high / low )</td>
+</tr>
+<tr>
+<td>void</td>
+<td>merupakan tipe data yang tidak bernilai dan tidak bertipe biasanya digunakan untuk data kosong</td>
+</tr>
+<tr>
+<td>Wchar_t</td>
+<td>adalah tipe data yang digunakan sama seperti char yang menyimpan karakter besar, biasanya digunakan untuk menyimpan karakter yang tidak ada di huruf abjad misalnya huruf japan, china, korea, dll.</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-c++">
+#include &lt;iostream&gt; // panggil iostream
+#include &lt;string&gt; // panggil string
+using namespace std;
+int main(){
+  // Deklarasi tipe data
+       int a = 5; // tipe data integer
+        /*
+       ini variabel a di isi
+       dengan angka 5
+       bertipe data integer / int
+       */
+        // bilangan bulat
+        unsigned int a = 5; // 32-bit
+        long b = 6;
+        short c = 7;
+
+        // bilangan decimal
+        float d = 1.0;
+        double e = 2.5;
+
+        // character
+        char f = 'a'; //character 1-bit
+
+        // boolean
+        bool g = true; // true/false
+       cout &lt;&lt; a &lt;&lt; endl; // mencetak data dari variabel a
+       cin.get();
+       return 0;
+}
+
+</code></pre>
+<h2 id="deklarasi">Deklarasi</h2>
+<pre><code class="language-c++">
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main(){
+
+        int a;
+        a = 10;
+        cout &lt;&lt; a &lt;&lt; endl;
+
+        int b;
+        cout &lt;&lt; &quot;masukan nilai : &quot;;
+        cin &gt;&gt; b;
+        cout &lt;&lt; &quot;nilai yang anda masukan adalah: &quot;;
+        cout &lt;&lt; b &lt;&lt; endl;
+
+        cin.get();
+        return 0;
+}
+
+</code></pre>
+<h2 id="tipe-data">Tipe Data</h2>
+<pre><code class="language-c++">
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main(){
+
+        // bilangan bulat
+        unsigned int a = 5; // 32-bit
+        long b = 6;
+        short c = 7;
+
+        // bilangan decimal
+        float d = 1.0;
+        double e = 2.5;
+
+        // character
+        char f = 'a'; //character 1-bit
+
+        // boolean
+        bool g = true; // true/false
+
+        cout &lt;&lt; a &lt;&lt; endl;
+        cout &lt;&lt; sizeof(a) &lt;&lt; &quot; byte&quot; &lt;&lt; endl;
+        cout &lt;&lt; numeric_limits&lt;unsigned int&gt;::max() &lt;&lt; endl;
+        cout &lt;&lt; numeric_limits&lt;unsigned int&gt;::min() &lt;&lt; endl;
+        cin.get();
+        return 0;
+}
+
+</code></pre>
+<h2 id="aritmatika">Aritmatika</h2>
+<pre><code class="language-c++">
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main(){
+
+        // Deklarasi Variabel
+        int a = 6;
+        int b = 4;
+        int hasil;
+
+        // operatornya +, -, *, /, %
+
+        // penjumlahan
+        hasil = a + b;
+        cout &lt;&lt; a &lt;&lt; &quot; + &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; hasil &lt;&lt; endl;
+
+        // pengurangan
+        hasil = a - b;
+        cout &lt;&lt; a &lt;&lt; &quot; - &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; hasil &lt;&lt; endl;
+
+        // perkalian
+        hasil = a * b;
+        cout &lt;&lt; a &lt;&lt; &quot; x &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; hasil &lt;&lt; endl;
+
+        // pembagian
+        hasil = a / b;
+        cout &lt;&lt; a &lt;&lt; &quot; / &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; hasil &lt;&lt; endl;
+
+        // modulus
+        hasil = a % b;
+        cout &lt;&lt; a &lt;&lt; &quot; % &quot; &lt;&lt; b &lt;&lt; &quot; = &quot; &lt;&lt; hasil &lt;&lt; endl;
+
+        // urutan eksekusi;
+
+        hasil = a + b * a;
+        cout &lt;&lt; hasil &lt;&lt; endl;
+
+        cin.get();
+        return 0;
+}
+
+</code></pre>
+<h2 id="komparasi">Komparasi</h2>
+<pre><code class="language-c++">
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+        int a = 2;
+        int b = 2;
+
+        bool hasil1, hasil2;
+
+        // komparasi, relation expression
+
+        // sebanding ==
+        hasil1 = (a == b);
+        // tidak sebanding !=
+        hasil2 = (a != b);
+
+        // kurang dari
+        hasil1 = (a &lt; b);
+        // lebih dari
+        hasil2 = (a &gt; b);
+
+        // kurang dari sama dengan
+        hasil1 = (a &lt;= b);
+        // lebih dari sama dengan
+        hasil2 = (a &gt;= b);
+
+        cout &lt;&lt;  hasil1 &lt;&lt; endl;
+        cout &lt;&lt;  hasil2 &lt;&lt; endl;
+
+        cin.get();
+        return 0;
+}
+
+</code></pre>
+<h2 id="program-menghitung-kecepatan">Program Menghitung kecepatan</h2>
+<pre><code class="language-c++">
+ #include &lt;iostream&gt;
+using namespace std;
+int main(){
+// deklarasi tipe data
+
+int s;
+int t;
+int hasil;
+
+// banner
+
+cout &lt;&lt; &quot;██╗░░██╗████████╗██╗░░██╗░░░░░██╗░░███╗░░\n&quot;;
+cout &lt;&lt; &quot;╚██╗██╔╝╚══██╔══╝██║░██╔╝░░░░░██║░████║░░\n&quot;;
+cout &lt;&lt; &quot;░╚███╔╝░░░░██║░░░█████═╝░░░░░░██║██╔██║░░\n&quot;;
+cout &lt;&lt; &quot;░██╔██╗░░░░██║░░░██╔═██╗░██╗░░██║╚═╝██║░░\n&quot;;
+cout &lt;&lt; &quot;██╔╝╚██╗░░░██║░░░██║░╚██╗╚█████╔╝███████╗\n&quot;;
+cout &lt;&lt; &quot;╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚══════╝\n&quot;;
+// =========
+
+// input
+
+cout &lt;&lt; &quot;\nProgram menghitung kecepatan\n&quot;;
+cout &lt;&lt; &quot;====================\n&quot;;
+cout &lt;&lt; &quot;Satuan jarak adalah Kilometer\n&quot;;
+cout &lt;&lt; &quot;Satuan waktu adalah Jam\n&quot;;
+cout &lt;&lt; &quot;====================\n&quot;;
+cout &lt;&lt; &quot;| @xcyberone | TKJ |\n&quot;;
+cout &lt;&lt; &quot;Masukan Jarak: &quot;;
+cin &gt;&gt; s;
+cout &lt;&lt; &quot;Masukan Waktu: &quot;;
+cin &gt;&gt; t;
+
+// proses
+
+hasil = s / t;
+
+// output
+cout &lt;&lt; &quot;Jadi kecepatan anda adalah : &quot; &lt;&lt; hasil &lt;&lt; &quot; km/jam &quot; &lt;&lt; end&gt;
+cin.get();
+return 0;
+}
+
+
+</code></pre>
+<h2 id="komparasi-digital">Komparasi Digital</h2>
+<pre><code class="language-c++">
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+        int a = 3;
+        int b = 2;
+
+        bool hasil;
+
+        // operator logika : not, and, or
+
+        // not
+        hasil = !(a == 3);
+
+        // and : kedua nilai benar untuk menghasilkan true
+
+        cout &lt;&lt; &quot;untuk and \n&quot;;
+        hasil = (a == 3) and (b == 2); // true and true
+        cout &lt;&lt; hasil &lt;&lt; endl;
+        hasil = (a == 4) and (b == 2); // false and true
+        cout &lt;&lt; hasil &lt;&lt; endl;
+        hasil = (a == 3) &amp;&amp; (b == 3); // true and false
+        cout &lt;&lt; hasil &lt;&lt; endl;
+        hasil = (a == 4) &amp;&amp; (b == 3); // false and false
+        cout &lt;&lt; hasil &lt;&lt; endl;
+
+        // or : salah satu nilai true maka hasil true
+        cout &lt;&lt; &quot;untuk or \n&quot;;
+        hasil = (a == 3) or (b == 2); // true and true
+        cout &lt;&lt; hasil &lt;&lt; endl;
+        hasil = (a == 4) or (b == 2); // false and true
+        cout &lt;&lt; hasil &lt;&lt; endl;
+        hasil = (a == 3) || (b == 3); // true and false
+        cout &lt;&lt; hasil &lt;&lt; endl;
+        hasil = (a == 4) || (b == 3); // false and false
+        cout &lt;&lt; hasil &lt;&lt; endl;
+
+
+        cin.get();
+        return 0;
+}
+
+</code></pre>
+<h2 id="if-statement">IF Statement</h2>
+<pre><code class="language-c++">
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+        int a;
+
+        cout &lt;&lt; &quot;masukan angka = &quot;;
+        cin &gt;&gt; a;
+
+        // if statement
+        // kondisi dalam bentuk boolean
+        if (a == 5)
+        {
+                cout &lt;&lt; &quot;halooo&quot; &lt;&lt; endl;
+        }
+
+        cout &lt;&lt; &quot;selesai&quot; &lt;&lt; endl;
+        cin.get();
+        return 0;
+}
+
+</code></pre>
+<h2 id="if-else">IF Else</h2>
+<pre><code class="language-c++">
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main(){
+
+        int a;
+
+        cout &lt;&lt; &quot;masukan angka = &quot;;
+        cin &gt;&gt; a;
+
+        if (a == 5){
+                cout &lt;&lt; &quot;nilai ini adalah 5&quot; &lt;&lt; endl;
+        } else if (a == 3){
+                cout &lt;&lt; &quot;nilai ini adalah 3&quot; &lt;&lt; endl;
+        } else if (a == 1){                                       cout &lt;&lt; &quot;nilai ini adalah 1&quot; &lt;&lt; endl;
+        } else {
+                cout &lt;&lt; &quot;bukan 5,3, atau 1&quot; &lt;&lt; endl;
+        }
+
+        cout &lt;&lt; &quot;selesai&quot; &lt;&lt; endl;
+        cin.get();
+        return 0;
+}
+
+</code></pre>
+<h2 id="switch-case">Switch Case</h2>
+<pre><code class="language-c++">
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+        int a;
+
+        cout &lt;&lt; &quot;masukan nilai = &quot;;
+        cin &gt;&gt; a;
+
+        switch(a){
+                case 1:
+                        cout &lt;&lt; &quot;a = 1&quot; &lt;&lt; endl;
+                        break;
+                case 2:
+                        cout &lt;&lt; &quot;a = 2&quot; &lt;&lt; endl;
+                case 3:
+                        cout &lt;&lt; &quot;a = 3&quot; &lt;&lt; endl;
+                case 4:
+                        cout &lt;&lt; &quot;a = 4&quot; &lt;&lt; endl;
+                case 5:
+                        cout &lt;&lt; &quot;a = 5&quot; &lt;&lt; endl;
+                default:
+                        cout &lt;&lt; &quot;default&quot; &lt;&lt; endl;
+        }
+
+        cout &lt;&lt; &quot;akhir dari program&quot; &lt;&lt; endl;
+
+        return 0;
+}
+
+</code></pre>
+<h2 id="program-kalkulator">PROGRAM KALKULATOR</h2>
+<pre><code class="language-c++">
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+        float a,b,hasil;
+        char aritmatika;
+
+        cout &lt;&lt; &quot;Selamat datang di program calculator \n \n&quot;;
+
+        // memasukan input dari user
+        cout &lt;&lt; &quot;Masukan nilai pertama: &quot;;
+        cin &gt;&gt; a;
+        cout &lt;&lt; &quot;Pilih operator +,-,/,*: &quot;;
+        cin &gt;&gt; aritmatika;
+        cout &lt;&lt; &quot;Masukan nilai kedua: &quot;;
+        cin &gt;&gt; b;
+
+        cout &lt;&lt; &quot;\nHasil perhitungan: &quot;;
+        cout &lt;&lt; a &lt;&lt; aritmatika &lt;&lt; b;
+
+        if (aritmatika == '+'){
+                hasil = a + b;
+        } else if (aritmatika == '-'){
+                hasil = a - b;
+        } else if (aritmatika == '/'){
+                hasil = a / b;
+        } else if (aritmatika == '*'){
+                hasil = a * b;
+        } else {
+                cout &lt;&lt; &quot;operator anda salah&quot; &lt;&lt; endl;
+        }
+
+        cout &lt;&lt; &quot; = &quot; &lt;&lt; hasil &lt;&lt; endl;
+
+        cin.get();
+        return 0;
+}
+
+</code></pre>
+<h2 id="assignment">Assignment</h2>
+<pre><code class="language-c++">
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+
+        // assignment
+        int a = 10;
+
+        cout &lt;&lt; &quot;nilai awal dari a adalah: &quot; &lt;&lt; a &lt;&lt; endl;
+
+        // assignment operator
+        // variabel = variabel operator ekspresi
+        //     a.   =.   a.      -       3
+        // variabel operator= ekspresi
+        //     a.      +=.       3
+
+        a += 3;
+        cout &lt;&lt; &quot;ditambah 3 menjadi &quot; &lt;&lt; a &lt;&lt; endl;
+
+        a -= 3;
+        cout &lt;&lt; &quot;dikurangi 3 menjadi &quot; &lt;&lt; a &lt;&lt; endl;
+
+        a /= 3;
+        cout &lt;&lt; &quot;dibagi 3 menjadi &quot; &lt;&lt; a &lt;&lt; endl;
+
+        a *= 3;
+        cout &lt;&lt; &quot;dikali 3 menjadi &quot; &lt;&lt; a &lt;&lt; endl;
+
+        a %= 3;
+        cout &lt;&lt; &quot;dimodulus 3 menjadi &quot; &lt;&lt; a &lt;&lt; endl;
+
+        cin.get();
+        return 0;
+}
+
+</code></pre>
+<h3 id="increment-dan-decrement">Increment dan Decrement</h3>
+<pre><code class="language-c++">
+#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+        // increment dan decrement
+        // preincrement dan postincrement
+
+        int a = 5;
+        int b = 5;
+
+        // postincrement
+        cout &lt;&lt; a &lt;&lt; endl;
+        cout &lt;&lt; a++ &lt;&lt; endl;
+        cout &lt;&lt; a &lt;&lt; endl &lt;&lt; endl;
+
+        // preincrement
+        cout &lt;&lt; b &lt;&lt; endl;
+        cout &lt;&lt; ++b &lt;&lt; endl;
+        cout &lt;&lt; b &lt;&lt; endl;
+
+
+
+        cin.get();
+        return 0;
+}
+
+</code></pre>
+<h3 id="whileloops">Whileloops</h3>
+<pre><code class="language-c++">
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+
+        int a = 5;
+
+        while(a &lt;= 10){
+                cout &lt;&lt; &quot;hore &quot;;
+                cout &lt;&lt; a &lt;&lt; endl;
+                a += 1;
+        }
+
+        cout &lt;&lt; &quot;selesai&quot; &lt;&lt; endl;
+
+        cin.get();
+        return 0;
+}
+
+</code></pre>
+<h3 id="dowhile">Dowhile</h3>
+<pre><code class="language-c++">
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+        int a = 1;
+
+        do{
+                cout &lt;&lt; &quot;hore &quot;;
+                cout &lt;&lt; a &lt;&lt; endl;
+                a++;
+        }while(a &lt;= 10);
+
+        cout &lt;&lt; &quot;selesai&quot; &lt;&lt; endl;
+        cin.get();
+        return 0;
+}
+
+</code></pre>
+<h3 id="forloops">Forloops</h3>
+<pre><code class="language-c++">
+
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+
+        cout &lt;&lt; &quot;Loop 1 \n&quot;;
+        for(int i = 1; i &lt;= 10; i++){
+                cout &lt;&lt; i &lt;&lt; endl;
+        }
+
+        cout &lt;&lt; &quot;\n Loop2 \n&quot;;
+        for(int i = 1; i &lt;= 10; i += 2 ){
+                cout &lt;&lt; i &lt;&lt; endl;
+        }
+
+        cout &lt;&lt; &quot;\n Loop3 \n&quot;;
+        for(int i = 1; i &gt;= -10; i-- ){
+                cout &lt;&lt; i &lt;&lt; endl;
+        }
+
+        cout &lt;&lt; &quot;\n Loop4 \n&quot;;
+
+        int total = 0;
+        for(int i = 1; i &lt;= 10; i++, total += i){
+                cout &lt;&lt; i &lt;&lt; &quot; || &quot; &lt;&lt; total &lt;&lt; endl;
+        }
+
+
+        return 0;
+}
+
+</code></pre>
+
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+
+
+
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
